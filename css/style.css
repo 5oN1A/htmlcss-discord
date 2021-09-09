@@ -190,3 +190,7 @@ h2 {
     font-weight: 700;
     padding-bottom: 20px;
 }
+
+main section:nth-of-type(even) {
+    background-color: #f6f6f6;
+}
