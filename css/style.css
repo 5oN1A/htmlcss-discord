@@ -29,12 +29,10 @@
 
 .col-2_6 {
     width: calc(100% / 6 * 2);
-    background-color: violet;
 }
 
 .col-4_6 {
     width: calc(100% / 6 * 4);
-   background-color: chartreuse;
 }
 
 .float-l {
@@ -83,12 +81,11 @@
 p {
     font-weight: 500;
     line-height: 30px;
+    font-size: 18px;
+    text-align: justify;
 }
 
-.txt-18
-{
-    font-size: 18px;
-}
+
 .txt-16
 {
     font-size: 16px;
@@ -101,7 +98,12 @@ p {
 
 .txt-black
 {
-    color: black;
+    color: #22272a;
+}
+
+.txt-blu
+{
+    color: #7289da;
 }
 
 /******************HEADER**************************/
@@ -109,7 +111,7 @@ p {
 header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    background-position-y: center;
+    background-position: center;
     min-height: 100vh;
 }
 
@@ -154,8 +156,7 @@ header .container {
 /*********************Hero*******************/
 .hero-text {
     margin: auto;
-    padding-bottom: 130px;
-    padding-top: 100px;
+    padding-top: 250px;
 }
 
 h1 {
@@ -202,18 +203,47 @@ main section:nth-of-type(even) {
 } 
 
 h5 {
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 700;
     padding-bottom: 20px;
 }
 
 .stars {
+    width: 650px;
     position: relative;
-    left: 225px;
-    top: 15px
+    left: 170px;
+    top: 10px
 }
 
 .last-section-btn {
     margin-top: 50px;
     text-align: center;
+}
+
+/****************FOOTER**************/
+
+footer {
+    background-color: #22272a;
+    padding-top: 100px;
+}
+
+#flag {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.ita {
+    vertical-align: middle;
+}
+
+.fab {
+    font-size: 25px;
+    padding-right: 15px;
+    padding-top: 25px;
+}
+
+footer ul,h6 {
+    font-size: 18px;
+    list-style: none;
+    line-height: 30px;
 }
