@@ -80,7 +80,7 @@
 
 /*********************Testo****************************/
 
-p{
+p {
     font-weight: 500;
     line-height: 30px;
 }
@@ -178,7 +178,9 @@ h1 {
     margin-right: 20px;
 }
 
-/*********************SECTIONS***********************/
+/******************MAIN****************************/
+
+/*********************Sections***********************/
 
 section {
     padding-top: 100px;
@@ -186,11 +188,32 @@ section {
 }
 
 h2 {
-    font-size: 52px;
+    font-size: 46px;
     font-weight: 700;
     padding-bottom: 20px;
 }
 
 main section:nth-of-type(even) {
     background-color: #f6f6f6;
+}
+
+.last-section h5,h2,p {
+    text-align: center;
+} 
+
+h5 {
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.stars {
+    position: relative;
+    left: 225px;
+    top: 15px
+}
+
+.last-section-btn {
+    margin-top: 50px;
+    text-align: center;
 }
