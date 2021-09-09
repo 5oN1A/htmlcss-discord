@@ -41,6 +41,10 @@
     float: left;
 }
 
+.float-r {
+    float: right;
+}
+
 /******************Bottoni****************************/
 
 .btn-shape {
