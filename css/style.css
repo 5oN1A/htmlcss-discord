@@ -190,6 +190,14 @@ section {
     padding-bottom: 100px;
 }
 
+.pd-r {
+    padding-right: 50px;
+}
+
+.pd-l {
+    padding-left: 50px;
+}
+
 h2 {
     font-size: 46px;
     font-weight: 700;
@@ -217,6 +225,27 @@ h5 {
     margin-top: 50px;
     text-align: center;
 }
+
+.sct-img {
+    width: 100%;
+} 
+
+/*.section-img-container.odd {
+    display: inline-block;
+    text-align: right;
+}*/
+
+.ls-img-container {
+    width: 100%;
+    text-align: center;
+}
+.ls-img {
+    margin: auto;
+}
+
+    
+
+
 
 /****************FOOTER**************/
 
